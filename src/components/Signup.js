@@ -88,10 +88,11 @@ function Signup() {
                         <div className="form-group">
                             <label>Select your Profession</label>
                             <Form.Control as="select" onChange={(event) => setProfession(event.target.value)} >
-                                <option>Web Developer</option>
-                                <option>Mobile App Developer</option>
+                                <option>Select one</option>
                                 <option>Web Designer</option>
+                                <option>Web Developer</option>
                                 <option>MERN Developer</option>
+                                <option>Mobile App Developer</option>
                             </Form.Control>
                         </div>
 
